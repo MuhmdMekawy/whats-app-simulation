@@ -12,7 +12,7 @@ function Chat({chatInfo}) {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/names/${chatInfo.id}`)
+      .get(`/.netlify/functions/api/${chatInfo.id}`)
       .then(res => {
         setChat(res.data)
       })

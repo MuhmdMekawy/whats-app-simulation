@@ -9,7 +9,7 @@ function NewChat() {
   const [error, setError] = useState(false)  
 
   useEffect(() => {
-    axios.get('/.netlify/functions/api')
+    axios.get('/.netlify/functions/api/data')
     .then(res => {
       setName(res.data)
       // console.log(res.data)

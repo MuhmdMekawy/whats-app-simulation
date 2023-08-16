@@ -66,11 +66,11 @@ function App() {
                   <path d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
                 </svg>
               </Link>
-              <Link to='' >
+              {/* <Link to='' >
                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="bi bi-three-dots-vertical" viewBox="0 0 16 16">
                   <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
                 </svg>
-              </Link>
+              </Link> */}
             </div>
           </div>
           <div className="half">
@@ -91,7 +91,7 @@ function App() {
               : 
               vl === '' && name !== null ?
                 name.map(p => (
-                  <Link key={p.user} onClick={() => handleClick(p)} to={`/chat/${p.id}`}>
+                  <a key={p.user} onClick={() => handleClick(p)} href={`/chat/${p.id}`}>
                     <div className="con">
                       <div className="image">
                         <img src={p.imgUrl} alt={p.user} />
@@ -101,11 +101,11 @@ function App() {
                         <h6>{p.state}</h6>
                       </div>
                     </div>
-                  </Link>
+                  </a>
                 ))
               :
               name.filter(f => f.user.startsWith(`${vl}`) === true ).map(p => (
-                <Link key={p.user} onClick={() => handleClick(p)} to={`/chat/${p.id}`}>
+                <a key={p.user} onClick={() => handleClick(p)} href={`/chat/${p.id}`}>
                   <div className="con">
                     <div className="image">
                       <img src={p.imgUrl} alt={p.user} />
@@ -115,7 +115,7 @@ function App() {
                       <h6>{p.state}</h6>
                     </div>
                   </div>
-                </Link>
+                </a>
               ))
             }
           </div>

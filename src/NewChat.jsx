@@ -14,9 +14,9 @@ function NewChat() {
     { id : 6 , user : "Mahmoud Kamal" , imgUrl : "https://cdn-icons-png.flaticon.com/512/2922/2922688.png" , state : "كن كالغيث إذا وقع نفع وإذا مضي أسعد ❤️"  , sentMsg : " " , recMsg : " " , story : "https://images.pexels.com/photos/4460483/pexels-photo-4460483.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" , phone : "+555516161"}, 
     { id : 7 , user : "Sama Ragab" , imgUrl : "https://cdn-icons-png.flaticon.com/512/921/921053.png" , state : "ولسوف يعطيك ربك فترضي" , sentMsg : " " , recMsg : " " , story : "" , phone : "+45123652"} ,
     { id : 8 , user : "Mazona" , imgUrl : "https://cdn-icons-png.flaticon.com/512/2922/2922688.png" , state : "No Pain No gain" , sentMsg : "معاد ماتش الاهلي امتي؟" , recMsg : "أسأل جوجل" , story : "" , phone : "+84621534"} ,
-    { id : 9 , user : "Nada Emad" , imgUrl : "https://cdn-icons.flaticon.com/png/512/4134/premium/4134175.png?token=exp=1651133330~hmac=36408d0a238ad3720beec3e2f9c053f0" , state : "القناعه كنز لا يفني" , sentMsg : " " , recMsg : " " , story : "" , phone : "+4587623"} ,
+    { id : 9 , user : "Nada Emad" , imgUrl : "https://cdn-icons-png.flaticon.com/128/4202/4202850.png" , state : "القناعه كنز لا يفني" , sentMsg : " " , recMsg : " " , story : "" , phone : "+4587623"} ,
     { id : 10 , user : "Amr Awad" , imgUrl : "https://cdn-icons-png.flaticon.com/512/2922/2922688.png" , state : "فصبر جميل .. والله المستعان على ما تصفون"  , sentMsg : " " , recMsg : " " , story : "" , phone : "+777845230"},
-    { id : 11, user : "Hend Tarek" , imgUrl : "https://cdn-icons.flaticon.com/png/512/2335/premium/2335153.png?token=exp=1651133505~hmac=21719f537eae425ecf5eae666260c93a" , state : "إن مع العسر يسرا❤️" , sentMsg : " " , recMsg : " " , story : "" , phone : "+999854620"} ,
+    { id : 11, user : "Hend Tarek" , imgUrl : "https://cdn-icons-png.flaticon.com/128/4202/4202850.png" , state : "إن مع العسر يسرا❤️" , sentMsg : " " , recMsg : " " , story : "" , phone : "+999854620"} ,
     { id : 12 , user : "Huda Ali" , imgUrl : "https://cdn-icons-png.flaticon.com/512/2922/2922688.png" , state : "القناعة دليل الأمانة، والأمانة دليل الشكر، والشكر دليل الزيادة، والزيادة دليل بقاء النعمة، والحياة دليل الخير كله." , sentMsg : " رساله مستلمه" , recMsg : " " , story : "" , phone : "+78877114"} ,
     { id : 13 , user : "Mohamed Eleraqy" , imgUrl : "https://cdn-icons-png.flaticon.com/512/2922/2922688.png" , state : "وهِب لي يا الله : قلبًا نقيا تقياً ، يخشاك سِراً وعلانية" , sentMsg : " " , recMsg : " " , story : "https://images.pexels.com/photos/5981369/pexels-photo-5981369.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" , phone : "+33032152"} 
     ,{ id: 14, user: "Saad Ali", imgUrl: "https://cdn-icons-png.flaticon.com/512/2922/2922688.png" , state : "أهلا بك أنا استخدم واتساب" , sentMsg : " " , recMsg : " " , story : "https://images.pexels.com/photos/7409749/pexels-photo-7409749.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" , phone : "66323462005"}
@@ -25,10 +25,19 @@ function NewChat() {
     , { id: 17, user: "Shady kamel", imgUrl: "https://cdn-icons-png.flaticon.com/128/921/921071.png", state: "أهلا بك أنا استخدم واتساب" , sentMsg : " " , recMsg : " " , story : "" , phone : "+03035462"}
     , { id: 18, user: "Sally Saied", imgUrl: "https://cdn-icons-png.flaticon.com/128/949/949635.png", state: "أهلا بك أنا استخدم واتساب" , sentMsg : " " , recMsg : " " , story : "" , phone : "+74568215"}
     , { id: 19, user: "Waleed Reda", imgUrl: "https://cdn-icons-png.flaticon.com/512/2922/2922688.png", state: "أهلا بك أنا استخدم واتساب" , sentMsg : " " , recMsg : " " , story : ""  , phone : "+203222354"}
-    , { id: 20, user: "Shadya Ahmed", imgUrl: "https://cdn-icons-png.flaticon.com/128/3667/3667325.png", state: "أهلا بك أنا استخدم واتساب", sentMsg : " " , recMsg : " " , story : "" , phone : "+0951364752"}
+    , { id: 20, user: "Alaa Ali", imgUrl: "https://cdn-icons-png.flaticon.com/128/4202/4202831.png", state: "أهلا بك أنا استخدم واتساب", sentMsg : " " , recMsg : " " , story : "" , phone : "+0951364752"}
+    , { id: 21, user: "Ragheb Fouad", imgUrl: "https://cdn-icons-png.flaticon.com/128/1785/1785888.png", state: "أهلا بك أنا استخدم واتساب" , sentMsg : " " , recMsg : " Sent Message" , story : "" , phone : "+44152223"}
+    , { id: 22, user: "Nagwa Rady", imgUrl: "https://cdn-icons-png.flaticon.com/128/2423/2423830.png", state: "أهلا بك أنا استخدم واتساب" , sentMsg : " " , recMsg : " " , story : "https://images.pexels.com/photos/2985016/pexels-photo-2985016.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" , phone : "+2215222462"}
+    , { id: 23, user: "Nergs Dafrawy", imgUrl: "https://cdn-icons-png.flaticon.com/128/1785/1785896.png", state: "أهلا بك أنا استخدم واتساب" , sentMsg : " " , recMsg : " " , story : "" , phone : "+03035462"}
+    , { id: 24, user: "Alex Ragy", imgUrl: "https://cdn-icons-png.flaticon.com/128/4202/4202843.png", state: "أهلا بك أنا استخدم واتساب" , sentMsg : " " , recMsg : " " , story : "" , phone : "+74568215"}
+    , { id: 25, user: "Shahd fady", imgUrl: "https://cdn-icons-png.flaticon.com/128/921/921089.png", state: "أهلا بك أنا استخدم واتساب" , sentMsg : " " , recMsg : " " , story : ""  , phone : "+203222354"}
+    , { id: 26, user: "Somia Ahmed", imgUrl: "https://cdn-icons-png.flaticon.com/128/4202/4202850.png", state: "أهلا بك أنا استخدم واتساب", sentMsg : " " , recMsg : " " , story : "" , phone : "+0951364752"}
   ])
   const [error, setError] = useState(false)  
 
+  const handleClick = c =>{
+    window.sessionStorage.setItem('chatInfo', c.id)
+  }
   return (
     <div className="newchat">
       <div className="content">
@@ -56,7 +65,7 @@ function NewChat() {
         }
         <div className="bottom">
           {name.filter(f => f.user.startsWith(`${vl}`) === true).map(p => (
-            <Link key={p.user} to=''>
+            <a key={p.user}  onClick={() => handleClick(p)} href={`/chat/${p.id}`}>
               <div className="con">
                 <div className="image">
                   <img src={p.imgUrl} alt={p.user} />
@@ -66,7 +75,7 @@ function NewChat() {
                   <h6>{p.state}</h6>
                 </div>
               </div>
-            </Link>
+            </a>
           ))}
         </div>
       </div>

@@ -29,8 +29,6 @@ function NewChat() {
   ])
   const [error, setError] = useState(false)  
 
-
-
   return (
     <div className="newchat">
       <div className="content">

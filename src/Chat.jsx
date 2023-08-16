@@ -28,7 +28,12 @@ function Chat() {
   const [vl , setVl] = useState('')
   const [chat , setChat] = useState([])
   const [chatId , setChatId] = useState('')
-
+  useEffect(() => {
+    setChatId(Number(window.sessionStorage.getItem('chatInfo')))
+    if (chatId !== Number(window.sessionStorage.getItem('chatInfo'))) {
+      window.location.reload()
+    }
+  } , [window.sessionStorage.getItem('chatInfo')])
   return (
     <div className="chat">
       <div className="content">

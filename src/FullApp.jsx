@@ -17,7 +17,7 @@ function FullApp() {
   const [chatInfo, setChatInfo] = useState()
 
   useEffect(() => {
-    axios.get('/.netlify/functions/api/data')
+    axios.get('../.netlify/functions/api/data')
       .then(res => {
         setName(res.data)
         setLoading(false)

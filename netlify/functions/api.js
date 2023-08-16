@@ -28,6 +28,7 @@ router.get('/data', (req, res) => {
     , { "id": 20, "user": "Shadya Ahmed", "imgUrl": "https://cdn-icons-png.flaticon.com/128/3667/3667325.png", "state": "أهلا بك أنا استخدم واتساب", "sentMsg" : " " , "recMsg" : " " , "story" : "" , "phone" : "+0951364752"}
   ];
   res.json(names);
+  console.log(res.json(names))
 });
 
 app.use('/.netlify/functions/api', router);

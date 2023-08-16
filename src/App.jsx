@@ -22,6 +22,7 @@ function App() {
       setName(res.data)
       setLoading(false)
       setError(false)
+      console.log(res.data)
     })
     .catch(() => {
       setName([])

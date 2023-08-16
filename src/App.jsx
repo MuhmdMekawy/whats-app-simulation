@@ -41,7 +41,6 @@ function App() {
 
   const handleClick = c =>{
     window.sessionStorage.setItem('chatInfo', c.id)
-    window.location.reload()
   }
 
   return (

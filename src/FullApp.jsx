@@ -11,24 +11,10 @@ import Stories from './stories'
 import Slider from 'react-slick'
 
 function FullApp() {
-  const [name, setName] = useState([])
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(false)
   const [error, setError] = useState(false)
   const [chatInfo, setChatInfo] = useState()
 
-  useEffect(() => {
-    axios.get('../.netlify/functions/api/data')
-      .then(res => {
-        setName(res.data)
-        setLoading(false)
-        setError(false)
-      })
-      .catch(() => {
-        setName([])
-        setLoading(false)
-        setError(true)
-      })
-  }, [])
 
 
   const handleClick = c => {
@@ -51,7 +37,7 @@ function FullApp() {
         </div>
         :
           <Routes>
-            <Route path='/' element={<App />} >
+            <Route path='/' element={<App handleClick={handleClick} />} >
               <Route path='/home' element={<Navigate to='/' />} />
               <Route path='/chat/:id' element={<Chat chatInfo={chatInfo} />} />
               <Route path='/User' element={<User icon={icon} />} />

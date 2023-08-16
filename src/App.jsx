@@ -10,7 +10,7 @@ import NewChat from './NewChat'
 
 
 function App() {
-  const [name , setName] = useState([])
+  const [name , setName] = useState(null)
   const [loading , setLoading] = useState(true)
   const [error , setError] = useState(false)
   const [chatInfo , setChatInfo] = useState()
@@ -81,7 +81,7 @@ function App() {
                 <img src="https://cdn.dribbble.com/users/108183/screenshots/14420202/media/0398828bd84d67fad129e64e8a79f77c.gif" alt='loading gif' />
               </div>
               : 
-              vl === '' ?
+              vl === '' && name !== null ?
                 name.map(p => (
                   <Link key={p.user} onClick={() => handleClick(p)} to={`/chat/${p.id}`}>
                     <div className="con">

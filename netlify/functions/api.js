@@ -1,8 +1,10 @@
 const express = require('express');
 const serverless = require('serverless-http');
+const cors = require('cors'); // Import the cors middleware
 const app = express();
 const router = express.Router();
 
+app.use(cors());
 // Define your routes and logic here
 router.get('/data', (req, res) => {
   const names = [
